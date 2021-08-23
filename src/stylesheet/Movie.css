@@ -1,0 +1,110 @@
+
+.movie-container {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 0px 20px 0px 20px;
+}
+
+header {
+  background-color: #000;
+  display: flex;
+  padding: 1rem;
+  justify-content: flex-end;
+}
+header .head_logo h2{
+  color: white;
+  font-size: 28px;
+  /* margin-left: 2rem; */
+}
+
+.header_cls {
+  color: #000;
+  margin-left: 2rem;
+  font-size: 22px;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+.search {
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  color: white;
+  font-family: inherit;
+  font-size: 1.2rem;
+  padding: 0.2rem 1.5rem;
+}
+.movie_cls {
+  position: relative;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.movie_cls .img_movie {
+  border-radius: 8px;
+  box-shadow: 3px 3px 3px 5px rgba(0, 0, 0, 0, 0.1);
+  width: 200px;
+  transition: transform 450ms;
+}
+
+.movie_cls .img_movie:hover {
+  transform: scale(1.08);
+  
+}
+.movie_cls .option_cls{
+  position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 4;
+    color: white ;
+}
+
+.movie_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.movie_info .title_cls {
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: #000 !important;
+}
+
+.movie_info h3 {
+  margin: 0;
+}
+
+.movie_over {
+  background-color: #fff;
+  position: absolute;
+  padding: 1rem;
+  color: #22254b;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: auto;
+  max-height: 100%;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.movie_cls:hover .movie_over {
+  transform: translateY(0%);
+}
+.first-row-mv {
+  margin-left: 2rem;
+  font-size: 22px;
+}
+.image-container {
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.image-container:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}

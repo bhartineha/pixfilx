@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #22254b;
+  color: white;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y: hidden;
+}
+
+/* Favourites stylesheet */
+
+svg {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  left: 8px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.starOff svg:hover {
+  fill: burlywood;
+}
+
+.star_cls .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color:#FFCA28;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  font-size: 12px;
+}
+
+.star_cls:hover .tooltiptext {
+  visibility: visible;
+}
+.tralier_cls {
+  text-align: center;
+  margin-top:10px;
+}
+
+.footer_cls {
+  height: 40px;
+  background-color: #000;
+  display: flex;
+  padding: 1rem;
+  justify-content: flex-end;
+}
+.footer_cls span {
+  color: white;
+}
