@@ -16,4 +16,4 @@ Steps to run the application
 5. You can remove the movie from favourites list.
 
 #Demo url
-https://pixflix-63182.web.app
+https://movie-app-pixflix.web.app/
