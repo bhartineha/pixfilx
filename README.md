@@ -15,5 +15,4 @@ Steps to run the application
 4. Added list of favourite movie on click of Star icon.
 5. You can remove the movie from favourites list.
 
-#Demo url
-https://movie-app-pixflix.web.app/
+
