@@ -15,7 +15,7 @@ const Movie = ({
 
   return (
     <>
-      {movies.map((movie) => (
+      {movies?.map((movie) => (
         <div className="movie_cls">
           <img
             className="img_movie"
